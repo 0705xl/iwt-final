@@ -1,0 +1,23 @@
+*{
+    background-color:black;
+    margin: 0; padding: 0; box-sizing: border-box;
+    color:white;
+}
+header{
+    display: flex;
+    justify-content:center;
+    gap:30px;
+    list-style-type:none;
+    padding: 20px;
+}
+.ipad{
+    display: flex;
+    justify-content:center;
+}
+a{
+    text-decoration: none;
+}
+.ipa{
+    display: flex;
+    align-items: center;    
+}

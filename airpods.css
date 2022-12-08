@@ -1,0 +1,19 @@
+*{
+    background-color:black;
+    margin: 0; padding: 0; box-sizing: border-box;
+    color:white;
+}
+header{
+    display: flex;
+    justify-content:center;
+    gap:30px;
+    list-style-type:none;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+.airpods{
+    display: flex;
+    align-items: center;
+}

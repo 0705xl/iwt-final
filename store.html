@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket</title>
+    <link rel="stylesheet" href="store.css">
+</head>
+
+<body onload="total()">
+
+    <header>
+        <a href="index.html"><li><p class=change-text>Home</p></li></a>
+        <a href="iphone.html"><li><p class=change-text>iPhone</p></li></a>
+        <a href="ipad.html"><li><p class=change-text>iPad</p></li></a>
+        <a href="watch.html"><li><p class=change-text>Watch</p></li></a>
+        <a href="airpods.html"><li><p class=change-text>AirPods</p></li></a>
+    </header>
+    <div class="container">
+        <div class="elems">  <h1>iPhone 14</h1>
+            <div class="ip14">
+                <img src="14.jpg" alt="" style="height:450px;">
+        <h3 class="about14">The 6.1 and 6.7-inch iPhone 14 Pro models look like the iPhone 13 Pro models with flat edges, stainless steel enclosure, a textured matte glass back, IP68 water resistance, and a Ceramic Shield-protected display, but the camera bumps are larger to accommodate new lenses, and the display has also changed.</h3>
+            </div>
+            <h3>Price:$<span class="price">799</span></h3>
+            <div class="cart2">
+                <button class="button-" onclick="minus(this)">-</button>
+                <div class="amount">1</div>
+                <button class="button-" onclick="add(this)">+</button>
+            </div>
+            <button onclick="ClickFunction()"style="width: 450px;height: 40px;">More characteristics</button>
+            <h3 id="Characteristics"></h3>
+            <h1>iPhone 13</h1>
+            <div class="ip13">
+                <img src="13.jpg" alt="" class="onuh" style="height:365px;">
+                <h3 class="ontr">Compared to the standard iPhone models, the iPhone 13 Pro and Pro Max feature a stainless steel frame, 120Hz ProMotion displays, and triple-lens camera systems with improved Wide, Ultra Wide, and Telephoto lenses and higher-end photography options like macro capabilities, and the ProRes video format.</h3>
+            </div>
+            <h3>Price:$<span class="price">599</span></h3>
+            <div class="cart2">
+                <button class="button-" onclick="minus(this)">-</button>
+                <div class="amount">1</div>
+                <button class="button-" onclick="add(this)">+</button>
+            </div>
+        </div>
+        <div class="total">
+            <h1>TOTAL <span id="total">0</span>$</h1>
+        </div>
+
+    </div>
+      
+        <script src="main.js"></script>  
+</body>
+</html>

@@ -1,0 +1,61 @@
+*{
+    background-color:whitesmoke;
+    margin: 0; padding: 0; box-sizing: border-box;
+    color:black;
+}
+header{
+    display: flex;
+    justify-content:center;
+    gap:30px;
+    list-style-type:none;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+h3{
+    max-width: 350px;
+}
+.ip14{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h1{
+    margin-left: 140px;
+}
+.ip13{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ontr{
+  
+}
+.onuh{
+
+}
+h3{
+    
+}
+.about14{
+    margin-left: 3px;
+}
+.cart2{
+    width: 35px;
+    height: 50px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.button-{
+padding: 5px 15px; 
+}
+.container{
+    display: flex;
+    margin: 5px;
+    justify-content: space-around;
+    padding-left: 20%;
+    flex-wrap: wrap;
+}

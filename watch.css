@@ -1,0 +1,24 @@
+*{
+    background-color:whitesmoke;
+    margin: 0; padding: 0; box-sizing: border-box;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content:center;
+    gap:30px;
+    list-style-type:none;
+    padding: 20px;
+}
+a{
+    text-decoration: none;   
+}
+.col{
+    display: flex;
+    justify-content:center;
+}
+.cas{
+    display: flex;
+    align-items: center;
+
+}
